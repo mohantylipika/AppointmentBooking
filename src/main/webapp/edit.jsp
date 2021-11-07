@@ -8,7 +8,6 @@
 <title>JSP Page</title>
 </head>
 <body>
-
 	<%
 		Class.forName("com.mysql.jdbc.Driver");
 		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/patientappointment", "root", "admin");
