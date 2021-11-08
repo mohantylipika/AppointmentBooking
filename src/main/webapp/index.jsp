@@ -24,19 +24,19 @@
 		<form>
 			<table>
 				<tr>
-					<td>Patient Name</td>
+					<td>Patient Name<span style=color:red>*</span></td>
 					<td><input type="text" name="name" value=""
-						placeholder="Enter Patient's name"></td>
+						placeholder="Enter Patient's name" required></td>
 				</tr>
 				<tr>
-					<td>Mobile No</td>
+					<td>Mobile No<span style=color:red>*</span></td>
 					<td><input type="text" name="no" value=""
-						placeholder="Enter mobile number"></td>
+						placeholder="Enter mobile number" required></td>
 				</tr>
 				<tr>
-					<td>Disease</td>
+					<td>Disease<span style=color:red>*</span></td>
 					<td><input type="text" name="dukh" value=""
-						placeholder="Enter the Disease"></td>
+						placeholder="Enter the Disease" required></td>
 				</tr>
 				<tr>
 					<td>Dr. Name</td>
